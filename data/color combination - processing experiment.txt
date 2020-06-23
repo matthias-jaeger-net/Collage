@@ -22,7 +22,7 @@ color combinations
 #eae0af
 #ffd318
 #8c1eff
-##74ffc3
+#74ffc3
 
 
 #7680bd
@@ -99,7 +99,7 @@ ff9933
 #b4eeb4
 #e9967a
 #adff2f
-#ff6a6a	
+#ff6a6a
 #e0ffff
 #8b7e66
 #20b2aa
@@ -187,4 +187,3 @@ red
 #ff0147
 #b11133
 #ff0151
-
