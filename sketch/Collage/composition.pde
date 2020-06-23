@@ -1,5 +1,5 @@
 /** A shapeCluster is a grid with irregular randomly tranformed shapes  */
-void shapeCluster(float x, float y, float wide, float high, float u, float v) {
+void composition(float x, float y, float wide, float high, float u, float v) {
   
   // Calculate a grid
   float row = wide / u;
@@ -17,8 +17,8 @@ void shapeCluster(float x, float y, float wide, float high, float u, float v) {
       float sy = j * v;
       float scaler = 2;
       
-      // Render the shape 
-      renderShapes(sx, sy, u, v, scaler);
+      // Render the shapes 
+      shapes(sx, sy, u, v, scaler);
 
       // Try calling it many times... 
       // renderShapes(sx, sy, int(u/2), int(v/2), 2);

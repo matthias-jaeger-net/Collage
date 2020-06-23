@@ -19,7 +19,7 @@ void setup() {
   // Disable the default black outline
   noStroke();
   
-  // shapeCluster(x, y, w, h, sx, sy)
+  // composition(x, y, w, h, sx, sy)
   // x Position
   // y Position
   // w Width
@@ -29,9 +29,9 @@ void setup() {
   
   // Two clusters
   // Centerd box
-  shapeCluster(100, 100, width-200, height-200, 80, 20);  
+  composition(100, 100, width-200, height-200, 80, 20);  
   // Acccents
-  shapeCluster(width*0.5, height*0.5, 200, 200, 100, 10);  
+  composition(width*0.5, height*0.5, 200, 200, 100, 10);  
   
   // Save image
   save("out/"+str(millis())+".jpg");

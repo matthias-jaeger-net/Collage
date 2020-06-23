@@ -1,5 +1,5 @@
 /** A function that renders a "shape" to the "cluster" */
-void renderShapes(float x, float y, float w, float h, float f) {
+void shapes(float x, float y, float w, float h, float f) {
   
   // The dimensions of the shape are scaled randomly
   // Input is 2.0 at the moment
