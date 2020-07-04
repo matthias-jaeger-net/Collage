@@ -33,6 +33,10 @@ void setup() {
   // Acccents
   composition(width*0.5, height*0.5, 200, 200, 100, 10);  
   
+  // Apply mask
+  PImage mask = loadImage("mask.png");
+  image(mask, 0, 0);
+  
   // Save image
   save("out/"+str(millis())+".jpg");
 }
